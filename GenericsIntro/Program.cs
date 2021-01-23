@@ -9,11 +9,18 @@ namespace GenericsIntro
         {
             MyList<string> isimler = new MyList<string>();
             isimler.Add("Engin");
+            isimler.Add("Engin");
+            isimler.Add("Engin");
+            isimler.Add("Engin");
+            
+
 
             List<string> liste = new List<string>();
             Console.WriteLine(liste.Count);
-
-            Console.WriteLine("Hello World!");
+            liste.Add("Berk");
+            liste.Add("Berk");
+            liste.Add("Berk");
+            Console.WriteLine(liste.Count);
 
         }
     }
